@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💌For Kasheessshhhh❤️</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            background: rgb(0, 86, 143);
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            background: rgba(0, 0, 0, 0.6);
+        }
+        .container {
+            padding: 5px;
+        }
+        .love-message, .why-i-love-you, .surprise{
+            font-size: 22px;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 10px;
+            border-radius: 10px;
+            display: inline-block;
+            max-width: 80%;
+            margin: auto;
+            font-family: cursive;
+        }
+        .proposal {
+            font-size: 30px;
+            font-weight: bold;
+            margin-top: 30px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        
+        .button {
+            margin-top: 30px;
+            padding: 15px 25px;
+            font-size: 20px;
+            color: white;
+            background-color: #000000;
+            border: solid 3px white;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: unset;
+            transition: background 0.3s;
+        }
+        .button:hover {
+            background-color: white;
+            color: black;
+            border: solid 3px black;
+        }
+        .hidden-message {
+            display: none;
+            font-size: 24px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        .proposal-container {
+            display: none; /* Initially hidden */
+            padding: 10px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        h2 {
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <header style="font-family: 'Courier New', Courier, monospace; font-size: 50px;">
+        💍Happieee Propose Day💍<br>❤️Kasheeesssshhhhh❤️
+    </header>
+    <div class="container">
+        <h1>💕Helluuu, My Lovieee!!!💕</h1>
+        <p class="love-message">Aaj ka din toh special h🤗<br>
+            Par aapse zyada special kuch bhi nahi h🫠<br>
+            Bas socha ek chhoti si yaad dila du ki koi h jo har din aapko boht miss karta h, har pal aapke baare mein sochta h🥺<br>
+            Aur aaj toh thoda zyada hi!🥺🥺🥺  <br>
+            Har roz ek naya reason milta h aapse aur zyada pyaar karne ka😚😚
+        </p>
+    </div>
+    <div class="container">
+        <h2>❤️Why I Loveee Youuu???❤️</h2>
+        <p class="why-i-love-you">
+            Mei aapse sirf ek wajah se nahi, hazaar wajahon se pyaar karta hoon🥺❤️<br>
+            Aapki hasi, aapki baatein, aapki aankhe, aapki voice, aapki smile, aapka sab kuch!🥺❤️<br>
+            Aap mere liye sab kuch ho, aur mei chahta hoon ki aap mere liye hamesha aise hi raho🥺❤️ <br>
+            Aap meri life ka vo hissa ho jo sabse special h, jo har din aur bhi important lagne laga h🥺❤️ <br>
+            Aapse baat karna ek comfort h, aur shayad issiliye, aapke bina sab kuch अधूरा सा लगता h🥺❤️
+        </p>
+    </div>
+    <div class="container">
+        <h2>🤫Secret message for Youuu🤫</h2>
+        <button class="button" onclick="document.getElementById('hidden-message').style.display='block'">Click to Reveal</button>
+        <p id="hidden-message" class="hidden-message" style="background-color: black; color: pink; padding: 10px; border-radius: 50px; border: solid 3px white">
+            You are my today, my tomorrow, and my forever♾️🥹<br>
+            I can't wait to spend every moment of my life making you the laugh and happiest person in the world💍🥹<br>
+            I love you more than words can express, more than actions can show, and more than you can imagine💖 <br>
+            Aap meri life ki bestestestest part ho, ek aisi feeling jo har din aur pyaari hoti ja rahi h🥹🥹🥹<br>
+            Toh socha aaj ek aur surprise de du🤭🎁<br>
+            Mei sirf aapse pyaar nahi karta, main aapse zindagi bhar ka saath maangta hoon🥺❤️<br>
+            Mei chahta hoon aapko har din aur bhi special feel karwau🩷 kyunki aap deserve karti ho… duniya ki saari khushiyaan 🤗✨😚
+        </p>
+    </div>
+
+    <!-- Toggle Button -->
+    <button class="button" id="toggleButton" style="margin: 20px">💖Tap to See Surprise💖</button>
+
+    <!-- Proposal (Initially Hidden) -->
+    <div class="proposal-container" id="proposalDiv" style="margin: 20px">
+        <h2>💍Will You Be Mine Forever???💍</h2>
+        <div class="button-container">
+            <button class="button" onclick="window.location.href='new.html'">Yes, I Will!💕🫠</button>
+            <button class="button" id="noButton">No🙅🏻‍♀️</button>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+
+    <footer style="background-color: rgb(0, 54, 54); font-family: 'Times New Roman', Times, serif; padding: 5px; font-size: 20px;">
+        <p>This website is not just a page… it’s a small piece of my heart, wrapped up in words and colors, just for you. I hope it makes you feel as loved as you truly are. 💖</p>
+    </footer>
+</body>
+</html>

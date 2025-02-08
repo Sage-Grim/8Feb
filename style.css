@@ -1,0 +1,30 @@
+body {
+  background: #131b21;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.center-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  color: pink; /* Soft pink */
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.8), 0 0 20px rgba(255, 0, 0, 0.5);
+  text-align: center; 
+  /* Apply animation */
+  animation: heartbeat 2s infinite ease-in-out;
+}
+
+/* Heartbeat Animation */
+@keyframes heartbeat {
+  0% { transform: translate(-50%, -50%) scale(1); }
+  50% { transform: translate(-50%, -50%) scale(1.2); }
+  100% { transform: translate(-50%, -50%) scale(1); }
+}
